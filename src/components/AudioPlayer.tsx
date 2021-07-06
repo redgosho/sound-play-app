@@ -30,6 +30,7 @@ export const AudioPlayer: React.FC = () => {
 
   return (
     <>
+      <p>音楽を再生する v2</p>
       <p>currenttime: {currentTime}</p>
       <button onClick={playing ? pause : play}>
         {playing ? "Pause" : "Play"}
